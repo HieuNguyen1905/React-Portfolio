@@ -1,0 +1,29 @@
+.link{
+    text-decoration: none;
+    color: rgb(176, 232, 251);
+    font-size: 25px;
+}
+
+.link:hover{
+    color: rgb(75, 37, 37);
+}
+
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: darkgrey;
+}
+
+.nav img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    
+}
+
+#active{
+    color:rgb(75, 37, 37)
+}
